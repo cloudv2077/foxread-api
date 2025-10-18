@@ -1,0 +1,25 @@
+# 🦊 FoxRead API .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Virtual environments  
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+foxread.log
+logs/
