@@ -1,0 +1,16 @@
+# 🦊 FoxRead API 依赖包列表
+
+# Web框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# 爬虫核心
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+webdriver-manager>=4.0.0
+
+# 网络请求
+requests>=2.31.0
+
+# 数据处理
+lxml>=4.9.0

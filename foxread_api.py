@@ -19,7 +19,7 @@ from fastapi.responses import JSONResponse, PlainTextResponse
 import uvicorn
 
 # 🦊 FoxRead 配置
-WEB_AGENT_PATH = os.path.expanduser("~/Linkgo/web_agent.py")
+WEB_AGENT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "web_agent.py")
 PORT = 8900
 HOST = "0.0.0.0"
 VERSION = "1.0.0"
